@@ -31,7 +31,7 @@ namespace PricingCalculator
 
             var movieId = request.Query["moviedetails"].ToString().ToLowerInvariant();
 
-            viewModel.totalPrice = moviePrices[movieId] * 1.15m;
+            viewModel.totalPrice = moviePrices[movieId] * 1.14m;
 
             return Task.CompletedTask;
         }
