@@ -4,6 +4,7 @@
   "files": [
     "CalculatePrice/ClientApp/pricedisplay.d.ts",
     "CalculatePrice/ClientApp/pricedisplay.tsx"
+    "CalculatePrice/ClientApp/pricedisplay.css"
   ],
   "typings": "CalculatePrice/ClientApp/pricedisplay.d.ts",
   "main": "CalculatePrice/ClientApp/pricedisplay.tsx",
