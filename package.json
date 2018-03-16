@@ -2,11 +2,11 @@
   "name": "microfrontends.pricing",
   "version": "1.0.0",
   "files": [
-    "Ratings/ClientApp/ratings.d.ts",
-    "Ratings/ClientApp/ratings.tsx"
+    "CalculatePrice/ClientApp/pricedisplay.d.ts",
+    "CalculatePrice/ClientApp/pricedisplay.tsx"
   ],
-  "typings": "Ratings/ClientApp/ratings.d.ts",
-  "main": "Ratings/ClientApp/ratings.tsx",
+  "typings": "CalculatePrice/ClientApp/pricedisplay.d.ts",
+  "main": "CalculatePrice/ClientApp/pricedisplay.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
