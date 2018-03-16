@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "files": [
     "CalculatePrice/ClientApp/pricedisplay.d.ts",
-    "CalculatePrice/ClientApp/pricedisplay.tsx"
+    "CalculatePrice/ClientApp/pricedisplay.tsx",
     "CalculatePrice/ClientApp/pricedisplay.css"
   ],
   "typings": "CalculatePrice/ClientApp/pricedisplay.d.ts",
