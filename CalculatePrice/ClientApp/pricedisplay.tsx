@@ -1,0 +1,22 @@
+﻿import * as React from 'react';
+import { RouteComponentProps } from 'react-router';
+
+export class PriceDisplay extends React.Component<any, any> {
+    private formatPrice(value: number): string {
+        if (value) {
+            return 'R ' + value.toFixed(2);
+        }
+
+        return '';
+    }
+
+    public render() {
+        if (this.props.pricing && this.props.pricing.totalPrice) {
+            return <div className="price">
+                Price: {this.formatPrice(this.props.pricing.totalPrice)}
+            </div>;
+        }
+
+        return null;
+    }
+}
